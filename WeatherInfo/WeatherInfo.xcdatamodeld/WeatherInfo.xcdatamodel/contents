@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="WeatherData" syncable="YES">
+        <attribute name="humidity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxTemprature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minTemprature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temprature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visibility" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="windSpeed" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="WeatherData" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>
